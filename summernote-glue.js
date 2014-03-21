@@ -20,7 +20,7 @@ $(document).ready(function () {
         optionKeyName = value.replace(/summernote/g, '');
         options[optionKeyName.substring(0, 1).toLowerCase() + optionKeyName.substring(1, value.length)] = data[value];
       }
-    }) 
+    });
     textarea.summernote(options);
   });
   $('form').each(function () {
